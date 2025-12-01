@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local data
+.data/
+data/chroma/
+static/tts/
+
+# Environment files
+.env
+.env.local
+
+# Node/NPM
+node_modules/
+frontend/node_modules/
+.next/
+
+# OS junk
+.DS_Store
+
+# Coverage / logs
+.coverage
+pytest_cache/
+/tmp/
